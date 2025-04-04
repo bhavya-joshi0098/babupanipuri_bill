@@ -6,7 +6,7 @@ function scrollToBottom() {
     });
 }
 
-let items = [
+let englishItems = [
     { "id": 1, "name": "Panipuri (Half Plate)", "price": 30 },
     { "id": 2, "name": "Panipuri (Full Plate)", "price": 50 },
     { "id": 3, "name": "Sevpuri (Half Plate)", "price": 30 },
@@ -50,6 +50,69 @@ let items = [
     { "id": 41, "name": "Spe. Mix Cheesepuri (Half Plate)", "price": 100 },
     { "id": 42, "name": "Spe. Mix Cheesepuri (Full Plate)", "price": 120 }
   ];
+
+  let gujaratiItems = [
+    { "id": 1, "name": "પાણીપુરી (હાફ પ્લેટ)", "price": 30 },
+    { "id": 2, "name": "પાણીપુરી (ફુલ પ્લેટ)", "price": 50 },
+    { "id": 3, "name": "સેવપુરી (હાફ પ્લેટ)", "price": 30 },
+    { "id": 4, "name": "સેવપુરી (ફુલ પ્લેટ)", "price": 50 },
+    { "id": 5, "name": "મસાલાપુરી (હાફ પ્લેટ)", "price": 30 },
+    { "id": 6, "name": "મસાલાપુરી (ફુલ પ્લેટ)", "price": 50 },
+    { "id": 7, "name": "દહિપુરી (હાફ પ્લેટ)", "price": 40 },
+    { "id": 8, "name": "દહિપુરી (ફુલ પ્લેટ)", "price": 60 },
+    { "id": 9, "name": "ચીઝપુરી (હાફ પ્લેટ)", "price": 80 },
+    { "id": 10, "name": "ચીઝપુરી (ફુલ પ્લેટ)", "price": 100 },
+    { "id": 11, "name": "રગડાપુરી (હાફ પ્લેટ)", "price": 40 },
+    { "id": 12, "name": "રગડાપુરી (ફુલ પ્લેટ)", "price": 60 },
+    { "id": 13, "name": "રગડા પાણીપુરી (હાફ પ્લેટ)", "price": 40 },
+    { "id": 14, "name": "રગડા પાણીપુરી (ફુલ પ્લેટ)", "price": 60 },
+    { "id": 15, "name": "રગડા સેવપુરી (હાફ પ્લેટ)", "price": 40 },
+    { "id": 16, "name": "રગડા સેવપુરી (ફુલ પ્લેટ)", "price": 60 },
+    { "id": 17, "name": "રગડા ચીઝપુરી (હાફ પ્લેટ)", "price": 80 },
+    { "id": 18, "name": "રગડા ચીઝપુરી (ફુલ પ્લેટ)", "price": 100 },
+    { "id": 19, "name": "સેવ ચીઝપુરી (હાફ પ્લેટ)", "price": 80 },
+    { "id": 20, "name": "સેવ ચીઝપુરી (ફુલ પ્લેટ)", "price": 100 },
+    { "id": 21, "name": "ચાટપુરી (હાફ પ્લેટ)", "price": 50 },
+    { "id": 22, "name": "ચાટપુરી (ફુલ પ્લેટ)", "price": 70 },
+    { "id": 23, "name": "ચાટ સેવપુરી (હાફ પ્લેટ)", "price": 50 },
+    { "id": 24, "name": "ચાટ સેવપુરી (ફુલ પ્લેટ)", "price": 70 },
+    { "id": 25, "name": "ચાટ રગડાપુરી (હાફ પ્લેટ)", "price": 50 },
+    { "id": 26, "name": "ચાટ રગડાપુરી (ફુલ પ્લેટ)", "price": 70 },
+    { "id": 27, "name": "ચાટ દહિપુરી (હાફ પ્લેટ)", "price": 50 },
+    { "id": 28, "name": "ચાટ દહિપુરી (ફુલ પ્લેટ)", "price": 70 },
+    { "id": 29, "name": "ચાટ ચીઝપુરી (હાફ પ્લેટ)", "price": 80 },
+    { "id": 30, "name": "ચાટ ચીઝપુરી (ફુલ પ્લેટ)", "price": 100 },
+    { "id": 31, "name": "જૈન પાણીપુરી (હાફ પ્લેટ)", "price": 30 },
+    { "id": 32, "name": "જૈન પાણીપુરી (ફુલ પ્લેટ)", "price": 50 },
+    { "id": 33, "name": "જૈન સેવપુરી (હાફ પ્લેટ)", "price": 30 },
+    { "id": 34, "name": "જૈન સેવપુરી (ફુલ પ્લેટ)", "price": 50 },
+    { "id": 35, "name": "જૈન રગડાપુરી (હાફ પ્લેટ)", "price": 40 },
+    { "id": 36, "name": "જૈન રગડાપુરી (ફુલ પ્લેટ)", "price": 60 },
+    { "id": 37, "name": "જીરા પુદીના ચીઝપુરી (હાફ પ્લેટ)", "price": 80 },
+    { "id": 38, "name": "જીરા પુદીના ચીઝપુરી (ફુલ પ્લેટ)", "price": 100 },
+    { "id": 39, "name": "શેજવાન લસણ ચીઝપુરી (હાફ પ્લેટ)", "price": 80 },
+    { "id": 40, "name": "શેજવાન લસણ ચીઝપુરી (ફુલ પ્લેટ)", "price": 100 },
+    { "id": 41, "name": "સ્પેશિયલ મિક્સ ચીઝપુરી (હાફ પ્લેટ)", "price": 100 },
+    { "id": 42, "name": "સ્પેશિયલ મિક્સ ચીઝપુરી (ફુલ પ્લેટ)", "price": 120 }
+  ];
+  let items = englishItems;
+
+  // Toggle language
+document.getElementById("language-toggle").addEventListener("click", function () {
+    if (items === englishItems) {
+        items = gujaratiItems;
+        this.textContent = "Switch to English";
+    } else {
+        items = englishItems;
+        this.textContent = "Switch to Gujarati";
+    }
+    loadMenu(); // Reload the menu with the selected language
+});
+
+// Load the menu on page load
+document.addEventListener("DOMContentLoaded", () => {
+    loadMenu();
+});
 
 let bill = [];
 let salesData = JSON.parse(localStorage.getItem("salesData")) || {};
